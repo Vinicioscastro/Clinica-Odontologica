@@ -1,6 +1,12 @@
 *{
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 100%;
+
+
 }
 .nav{
     background-color: red;
@@ -9,4 +15,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
 }
+.nav li{
+    float: left;
+    margin-left: 20px;
+}
+

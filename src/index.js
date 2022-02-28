@@ -4,11 +4,15 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Navv from "./navv";
+import Primeira from "./primeira"
 
 ReactDOM.render(
   <React.StrictMode>
     <Navv />
+    <Primeira />
     <App />
+    
+
   </React.StrictMode>,
   document.getElementById("root")
 );

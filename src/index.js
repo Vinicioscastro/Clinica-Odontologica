@@ -5,11 +5,13 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Navv from "./navv";
 import Primeira from "./primeira"
+import Consultorio from "./consultorio"
 
 ReactDOM.render(
   <React.StrictMode>
     <Navv />
     <Primeira />
+    <Consultorio />
     <App />
     
 

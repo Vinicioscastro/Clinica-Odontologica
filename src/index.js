@@ -4,9 +4,11 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Navv from "./navv";
-import Primeira from "./primeira"
-import Consultorio from "./consultorio"
-import Dentistas from "./dentistas"
+import Primeira from "./primeira";
+import Consultorio from "./consultorio";
+import Dentistas from "./dentistas";
+document.title = "Duque Bacelar Odonto";
+
 ReactDOM.render(
   <React.StrictMode>
     <Navv />
@@ -14,8 +16,6 @@ ReactDOM.render(
     <Consultorio />
     <Dentistas />
     <App />
-    
-
   </React.StrictMode>,
   document.getElementById("root")
 );

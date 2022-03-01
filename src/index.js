@@ -6,12 +6,13 @@ import reportWebVitals from "./reportWebVitals";
 import Navv from "./navv";
 import Primeira from "./primeira"
 import Consultorio from "./consultorio"
-
+import Dentistas from "./dentistas"
 ReactDOM.render(
   <React.StrictMode>
     <Navv />
     <Primeira />
     <Consultorio />
+    <Dentistas />
     <App />
     
 

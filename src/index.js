@@ -7,6 +7,10 @@ import Navv from "./navv";
 import Primeira from "./primeira";
 import Consultorio from "./consultorio";
 import Dentistas from "./dentistas";
+import Dentistas2 from "./dentistass";
+import Area from "./areas"
+
+
 document.title = "Duque Bacelar Odonto";
 
 ReactDOM.render(
@@ -15,7 +19,10 @@ ReactDOM.render(
     <Primeira />
     <Consultorio />
     <Dentistas />
+    <Dentistas2 />
+    <Area />
     <App />
+
   </React.StrictMode>,
   document.getElementById("root")
 );

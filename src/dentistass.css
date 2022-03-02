@@ -1,39 +1,40 @@
-.dentistas{
+.dentistass{
     background-image: url(../img/img003.jpg);
 
-    background-position: center;
+    background-position:top;
     background-repeat: no-repeat;
-    background-size: cover;
-    overflow: auto;
+    
+    
 
     max-width: 100%;
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content:space-around;
     align-items:flex-start;
     flex-wrap: wrap;
+    
 }
-.dentistas .discrip{
+.dentistass .discripp{
     width: 50%;
 }
-.dentistas .discrip h1{
+.dentistass .discripp h1{
     font-size: 3em;
     margin: 45px 0px 60px 0px;
     text-align: center;
     color: #82CFEF;
 
 }
-.dentistas .discrip ul li{
+.dentistass .discripp ul li{
     padding-left: 60px;
     text-align: justify;
     color: white;
     font-size: 1.3em;
     margin-top: 15px;
 }
-.dentistas img{
+.dentistass img{
     width: 300px;
-    margin-left: -100px;
+    margin-left: 25px;
     margin-top: 75px;
     border-radius: 0px 130px 0px 130px;
     box-shadow: -15px 15px 0px #82CFEF;

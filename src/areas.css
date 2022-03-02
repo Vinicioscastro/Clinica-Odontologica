@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.area {
+  max-width: 100%;
+  height: 100vh;
+  background-image: url(../img/Pontinhos.png);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.area h1{
+    font-size: 3em;
+    text-align: center;
+    padding: 25px;
+}
+.area ul {
+  display: flex;
+  justify-content: space-around;
+
+}
+.area ul li {
+  width: 25%;
+  text-align: justify;
+  justify-content: center;
+  background-color: aquamarine;
+  padding-bottom: 25px;
+}
+
+.area ul li img {
+padding: 13px;
+  width: 90%;
+}

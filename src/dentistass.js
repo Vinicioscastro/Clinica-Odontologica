@@ -1,12 +1,11 @@
-import { logRoles } from "@testing-library/react";
 import React from "react";
-import "./dentistas.css";
+import "./dentistass.css";
 import vinicios from "./vinicios.jpeg";
 
-export default function Dentistas() {
+export default function Dentistas2() {
   return (
-    <div className="dentistas">
-      <div className="discrip">
+    <div className="dentistass">
+      <div className="discripp">
         <h1>DR. Vinicios Castro</h1>
 
         <ul>
